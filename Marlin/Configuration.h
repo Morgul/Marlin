@@ -512,7 +512,7 @@
   #define DELTA_DIAGONAL_ROD 280.0 // mm
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 250.00 // get this value from auto calibrate
+  #define DELTA_HEIGHT 220 // (measured: 228.40) get this value from auto calibrate
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
@@ -599,7 +599,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 170, 792 }  // default steps per unit for Kossel (GT2, 20 tooth)
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 160, 295.685 }  // default steps per unit for Kossel (GT2, 20 tooth)
 
 /**
  * Default Max Feed Rate (mm/s)
